@@ -1,7 +1,26 @@
+body {
+  background-image: url(../img/ghanaflag.png);
+  background-size:contain;
+  background-repeat: repeat;
+  padding-top: 70px;
+}
+
 h1 {
   text-align: center;
-}
+  text-transform: capitalize;
+font-weight: bold;
+ }
 
 h2 {
   text-align: center;
+}
+
+.form{
+text-align: center;
+background: rgba(255, 255, 255, .2);
+box-shadow: 0 5px 15px rgba(0,0,0, 0.5);
+}
+
+.bday{
+  border-radius: 25px;
 }

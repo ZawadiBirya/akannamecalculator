@@ -8,4 +8,4 @@ Technologies used:
 Html, CSS, JS
 Contact information.
 zawadibirya@gmail.com
-License and Copyright information.
+License: https://github.com/ZawadiBirya/akannamecalculator/blob/master/license.txt

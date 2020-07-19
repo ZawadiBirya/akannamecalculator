@@ -1,4 +1,5 @@
 ![alt text](https://github.com/ZawadiBirya/akannamecalculator/blob/master/img/landingpagesc.png)
+<<<<<<< HEAD
 #Project name:\
 Akan Name Calculator\
 #Project description:\
@@ -11,4 +12,5 @@ just enter your DOB & Gender below:\
 Html, CSS, JS\
 #Contact information.\
 zawadibirya@gmail.com\
-#License and Copyright information.\
+License: https://github.com/ZawadiBirya/akannamecalculator/blob/master/license.txt
+>>>>>>> c085eb2f205bc7cd028c69178435ec01a04a412d

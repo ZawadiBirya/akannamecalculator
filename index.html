@@ -2,8 +2,6 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <script src = js/script.js>
-  </script>
   <title> Akan Name Generator</title>
 </head>
 <body>
@@ -15,15 +13,18 @@
        if you were born in that culture,<br>
     just enter your DOB & Gender below:</p>
 
-  <form id ="formdata">
-    <label for="bday"> Select Your Date of Birth:</label><br>
-<input type="date" id="bday" name="bday"><br>
-<br>
-  <input type="textbox" id = "gender">
-<input type="button" id = "submit"  onsubmit=function() value="button">
+  <form>
+    <input type="date" id="date" name="date" required> <br>
+    <select class="form-control" id ="gender">
+      <option id = "select" class="form-control" value ="choose"> Gender </option>
+      <option id = "male" class="form-control" value ="male"> Male</option>
+      <option id = "female" class="form-control" value="female">Female</option>
+    </select>
+    <input type="submit" id = "submit"  onclick= "submit()" value="submit">
     </form>
-    <div>
-        <h1 id="result"> Your Akan name is: </h1>
+    <div id="result">
+
         </div>
+        <script src="js/script.js"> </script>
   </body>
 </html>

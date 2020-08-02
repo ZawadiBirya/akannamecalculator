@@ -3,18 +3,26 @@ var femaleAkanNames = ['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama'
 var maleAkanNames = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame'];
 var weekDays = ['Sunday' , 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 
-function submit() {
-event.preventDefault();
-var gender = document.getElementById("gender");
+function toSubmit() {
+//event.preventDefault();
+//var male = document.getElementById("male");
+//var female = document.getElementById("female");
 var date = document.getElementById("date");
-date = new Date(date);
-weekDay = date.getDay();
+//var gender = gender.selectedIndex;
+//date = new Date(date);
+//weekDay = date.getDay();
+var male = document.getElementById("result").innerHTML = gender.options[male];
+var female = document.getElementById("result").innerHTML = gender.options[female];
 
-if (theGender === "male") {
+if (gender === "male") {
 document.getElementById("result").innerHTML = "Your Akan name is" + maleAkanNames[date.getDay()];
-} else if (theGender === "female") {
+}
+else if (gender === "female")
+{
 document.getElementById("result").innerHTML = "Your Akan name is" + femaleAkanNames[date.getDay()];
-} else {
-document.getElementById("result").innerHTML = "invalid";
+//} //else {
+//document.getElementById("result").innerHTML = "Not valid";
 }
      }
+
+toSubmit();
